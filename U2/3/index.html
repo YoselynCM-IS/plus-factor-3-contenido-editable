@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../style/style.css?rnd=132">
+  
+    <!--***** dos lineas de scripts para guardar imagen-->
+    <script type="text/javascript" src="../../js/html2canvas.js"></script>
+    <script type="text/javascript" src="../../js/html2canvas.min.js"></script>
+    <!--***** Fin de dos lineas de scripts para guardar imagen-->
+
+</head>
+
+<body>
+
+    <div id="contenedor">
+      <div style="position:absolute;top:0.000000px;left:0.000000px"><nobr><img height="1099.000000" width="872.000000" src ="bgimg/fondo.jpg"/></nobr></div>
+        <!--Empezar a agregar contenido-->
+        <span style="position: absolute; top: 497px; left: 286px">
+			<textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res1"></textarea>
+		</span>
+	  <span style="position: absolute; top: 518px; left: 350px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res2"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 538px; left: 266px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res3"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 557px; left: 299px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res4"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 578px; left: 400px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res5"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 638px; left: 222px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res6"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 658px; left: 276px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res7"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 678px; left: 266px">
+	  <textarea rows = "1" cols = "12" maxlength = "12" id="plus3_p29res8"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 698px; left: 204px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res9"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 720px; left: 227px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res10"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 778px; left: 150px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res11"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 799px; left: 150px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res12"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 819px; left: 150px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res13"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 839px; left: 150px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res14"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 859px; left: 196px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res15"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 919px; left: 190px">
+	  <textarea rows = "1" cols = "12" maxlength = "12" id="plus3_p29res16"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 940px; left: 163px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res17"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 939px; left: 290px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res18"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 960px; left: 200px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res19"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 960px; left: 287px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res20"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 981px; left: 168px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="plus3_p29res21"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 1000px; left: 200px">
+	  <textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res22"></textarea>
+	  </span>
+		<span style="position: absolute; top: 1000px; left: 304px">
+			<textarea rows = "1" cols = "5" maxlength = "5" id="plus3_p29res23"></textarea>
+		</span>
+		
+       
+        <!--Fin del contenido-->
+           <!-- FORMULARIO AL FINAL DEL CONTENIDO -->
+
+		<form style="margin-top: 1030px;margin-left: 190px; position: absolute; z-index: 2;" id="myForm" action="../../send.php" method="post">
+			<textarea style="display:none;" id="myInput" name = "imagen" maxlength="10"></textarea>
+			<input type="button" onclick="save_data()" value="Save"  class="btn btn-primary">
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="button" onclick="send_data(); loader(); return false" value="Send" class="btn btn-primary"> 
+			<input type="hidden" id="plus3_regNA" name="plus3_regNA">
+			<input type="hidden" id="plus3_regGP" name="plus3_regGP">
+			<input type="hidden" id="plus3_regCA" name="plus3_regCA">
+			<input type="hidden" id="plus3_regND" name="plus3_regND">
+			<input type="hidden" id="plus3_regCD" name="plus3_regCD">
+	  </form>
+
+		<!-- FIN FORMULARIO AL FINAL DEL CONTENIDO -->
+
+		<div id="loader" style="display:none; margin-top: 1020px;margin-left: 190px; position: absolute; z-index: 2;">
+			<img src="../../img/carga.gif"  width="180px" height="65px">
+		</div>
+            
+    </div>       
+</body>
+<script type="text/javascript">
+	//Carga datos del registro
+    document.getElementById('plus3_regNA').value = localStorage.getItem('plus3_regNA');
+    document.getElementById('plus3_regGP').value = localStorage.getItem('plus3_regGP');
+    document.getElementById('plus3_regCA').value = localStorage.getItem('plus3_regCA');
+    document.getElementById('plus3_regND').value = localStorage.getItem('plus3_regND');
+    document.getElementById('plus3_regCD').value = localStorage.getItem('plus3_regCD');
+
+	 document.getElementById('plus3_p29res1').value = localStorage.getItem('plus3_p29res1');
+    document.getElementById('plus3_p29res2').value = localStorage.getItem('plus3_p29res2');
+    document.getElementById('plus3_p29res3').value = localStorage.getItem('plus3_p29res3');
+    document.getElementById('plus3_p29res4').value = localStorage.getItem('plus3_p29res4');
+    document.getElementById('plus3_p29res5').value = localStorage.getItem('plus3_p29res5');
+    document.getElementById('plus3_p29res6').value = localStorage.getItem('plus3_p29res6');
+    document.getElementById('plus3_p29res7').value = localStorage.getItem('plus3_p29res7');
+    document.getElementById('plus3_p29res8').value = localStorage.getItem('plus3_p29res8');
+    document.getElementById('plus3_p29res9').value = localStorage.getItem('plus3_p29res9');
+    document.getElementById('plus3_p29res10').value = localStorage.getItem('plus3_p29res10');
+    document.getElementById('plus3_p29res11').value = localStorage.getItem('plus3_p29res11');
+    document.getElementById('plus3_p29res12').value = localStorage.getItem('plus3_p29res12');
+    document.getElementById('plus3_p29res13').value = localStorage.getItem('plus3_p29res13');
+    document.getElementById('plus3_p29res14').value = localStorage.getItem('plus3_p29res14');
+    document.getElementById('plus3_p29res15').value = localStorage.getItem('plus3_p29res15');
+    document.getElementById('plus3_p29res16').value = localStorage.getItem('plus3_p29res16');
+    document.getElementById('plus3_p29res17').value = localStorage.getItem('plus3_p29res17');
+    document.getElementById('plus3_p29res18').value = localStorage.getItem('plus3_p29res18');
+    document.getElementById('plus3_p29res19').value = localStorage.getItem('plus3_p29res19');
+    document.getElementById('plus3_p29res20').value = localStorage.getItem('plus3_p29res20');
+    document.getElementById('plus3_p29res21').value = localStorage.getItem('plus3_p29res21');
+    document.getElementById('plus3_p29res22').value = localStorage.getItem('plus3_p29res22');
+    document.getElementById('plus3_p29res23').value = localStorage.getItem('plus3_p29res23');
+    
+
+    function save_data(){
+        var plus3_p29res1 = document.getElementById('plus3_p29res1').value;
+        localStorage.setItem('plus3_p29res1', plus3_p29res1);
+        var plus3_p29res2 = document.getElementById('plus3_p29res2').value;
+        localStorage.setItem('plus3_p29res2', plus3_p29res2);
+        var plus3_p29res3 = document.getElementById('plus3_p29res3').value;
+        localStorage.setItem('plus3_p29res3', plus3_p29res3);
+        var plus3_p29res4 = document.getElementById('plus3_p29res4').value;
+        localStorage.setItem('plus3_p29res4', plus3_p29res4);
+        var plus3_p29res5 = document.getElementById('plus3_p29res5').value;
+        localStorage.setItem('plus3_p29res5', plus3_p29res5);
+        var plus3_p29res6 = document.getElementById('plus3_p29res6').value;
+        localStorage.setItem('plus3_p29res6', plus3_p29res6);
+        var plus3_p29res7 = document.getElementById('plus3_p29res7').value;
+        localStorage.setItem('plus3_p29res7', plus3_p29res7);
+        var plus3_p29res8 = document.getElementById('plus3_p29res8').value;
+        localStorage.setItem('plus3_p29res8', plus3_p29res8);
+        var plus3_p29res9 = document.getElementById('plus3_p29res9').value;
+        localStorage.setItem('plus3_p29res9', plus3_p29res9);
+        var plus3_p29res10 = document.getElementById('plus3_p29res10').value;
+        localStorage.setItem('plus3_p29res10', plus3_p29res10);
+        var plus3_p29res11 = document.getElementById('plus3_p29res11').value;
+        localStorage.setItem('plus3_p29res11', plus3_p29res11);
+        var plus3_p29res12 = document.getElementById('plus3_p29res12').value;
+        localStorage.setItem('plus3_p29res12', plus3_p29res12);
+        var plus3_p29res13 = document.getElementById('plus3_p29res13').value;
+        localStorage.setItem('plus3_p29res13', plus3_p29res13);
+        var plus3_p29res14 = document.getElementById('plus3_p29res14').value;
+        localStorage.setItem('plus3_p29res14', plus3_p29res14);
+        var plus3_p29res15 = document.getElementById('plus3_p29res15').value;
+        localStorage.setItem('plus3_p29res15', plus3_p29res15);
+        var plus3_p29res16 = document.getElementById('plus3_p29res16').value;
+        localStorage.setItem('plus3_p29res16', plus3_p29res16);
+        var plus3_p29res17 = document.getElementById('plus3_p29res17').value;
+        localStorage.setItem('plus3_p29res17', plus3_p29res17);
+        var plus3_p29res18 = document.getElementById('plus3_p29res18').value;
+        localStorage.setItem('plus3_p29res18', plus3_p29res18);
+        var plus3_p29res19 = document.getElementById('plus3_p29res19').value;
+        localStorage.setItem('plus3_p29res19', plus3_p29res19);
+        var plus3_p29res20 = document.getElementById('plus3_p29res20').value;
+        localStorage.setItem('plus3_p29res20', plus3_p29res20);
+        var plus3_p29res21 = document.getElementById('plus3_p29res21').value;
+        localStorage.setItem('plus3_p29res21', plus3_p29res21);
+        var plus3_p29res22 = document.getElementById('plus3_p29res22').value;
+        localStorage.setItem('plus3_p29res22', plus3_p29res22);
+        var plus3_p29res23 = document.getElementById('plus3_p29res23').value;
+        localStorage.setItem('plus3_p29res23', plus3_p29res23);
+        
+
+        alert("Saved correctly");
+    }
+
+    function send_data(){
+        pantallazo();
+        setTimeout(function(){document.getElementById("myForm").submit();}, 3000);
+    }
+
+    function pantallazo(){
+
+        html2canvas(document.body).then(canvas => {
+        	var dataURL = canvas.toDataURL();
+            console.log(dataURL);
+            document.getElementById("myInput").value = dataURL;
+            var canvas = document.createElement("canvas");
+            var ctx=canvas.getContext("2d");
+            var cw=canvas.width;
+            var ch=canvas.height;
+            var maxW=1280;
+            var maxH=1024;
+
+            var output = document.getElementById('myInput');
+	        var img = new Image;
+            img.onload = function() {
+                var iw=img.width;
+                var ih=img.height;
+                var scale=Math.min((maxW/iw),(maxH/ih));
+                var iwScaled=iw*scale;
+                var ihScaled=ih*scale;
+                canvas.width=iwScaled;
+                canvas.height=ihScaled;
+                ctx.drawImage(img,0,0,iwScaled,ihScaled);
+     	        output.value = canvas.toDataURL("../image/jpeg",1);
+            }
+            img.src = dataURL
+        });
+    }
+    
+    function loader(){
+		document.getElementById('loader').style.display = 'Block';
+ 
+	}
+
+</script>
+
+</html>
