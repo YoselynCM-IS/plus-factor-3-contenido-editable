@@ -29,9 +29,13 @@
 	  <span style="position: absolute; top: 557px; left: 150px">
 	  <textarea rows = "1" cols = "70" maxlength = "70" id="plus3_p35res4"></textarea>
 	  </span>
-	  <span style="position: absolute; top: 598px; left: 150px">
-	  <textarea rows = "1" cols = "70" maxlength = "70" id="plus3_p35res5"></textarea>
+  	  <span style="position: absolute; top: 580px; left: 470px;font-size: 90%">
+	  <textarea rows = "1" cols = "15" maxlength = "15" id="plus3_p35res7"></textarea>
 	  </span>
+	  <span style="position: absolute; top: 598px; left: 150px; font-size: 90%">
+	  <textarea rows = "1" cols = "75" maxlength = "75" id="plus3_p35res5"></textarea>
+	  </span>
+
 		<span style="position: absolute; top: 638px; left: 150px">
 			<textarea rows = "1" cols = "70" maxlength = "70" id="plus3_p35res6"></textarea>
 		</span>
@@ -74,6 +78,7 @@
     document.getElementById('plus3_p35res4').value = localStorage.getItem('plus3_p35res4');
     document.getElementById('plus3_p35res5').value = localStorage.getItem('plus3_p35res5');
     document.getElementById('plus3_p35res6').value = localStorage.getItem('plus3_p35res6');
+	document.getElementById('plus3_p35res7').value = localStorage.getItem('plus3_p35res7');
     
     function save_data(){
         var plus3_p35res1 = document.getElementById('plus3_p35res1').value;
@@ -88,6 +93,8 @@
         localStorage.setItem('plus3_p35res5', plus3_p35res5);
         var plus3_p35res6 = document.getElementById('plus3_p35res6').value;
         localStorage.setItem('plus3_p35res6', plus3_p35res6);
+		var plus3_p35res7 = document.getElementById('plus3_p35res7').value;
+        localStorage.setItem('plus3_p35res7', plus3_p35res7);
         
         alert("Saved correctly");
     }

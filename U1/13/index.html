@@ -44,32 +44,35 @@
 	  <textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res8"></textarea>
 		</span>
       <span style="position: absolute; top: 468px; left: 200px">
-	  <textarea rows = "1" cols = "20" maxlength = "20" id="plus3_p23res9"></textarea>
+	  <textarea rows = "1" cols = "25" maxlength = "25" id="plus3_p23res9"></textarea>
 		</span>
       <span style="position: absolute; top: 468px; left: 513px">
-	  <textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res10"></textarea>
+	  <textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res10"></textarea>
 		</span>
       <span style="position: absolute; top: 508px; left: 250px">
-	  <textarea rows = "1" cols = "20" maxlength = "20" id="plus3_p23res11"></textarea>
+	  <textarea rows = "1" cols = "25" maxlength = "25" id="plus3_p23res11"></textarea>
 		</span>
-      <span style="position: absolute; top: 648px; left: 517px">
-			<textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res12"></textarea>
+      <span style="position: absolute; top: 648px; left: 517px; font-size: 90%">
+			<textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res12"></textarea>
 		</span>
-     <span style="position: absolute; top: 569px; left: 517px">
-			<textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res13"></textarea>
+     <span style="position: absolute; top: 663px; left: 517px; font-size: 90%">
+			<textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res34"></textarea>
 		</span>
-     <span style="position: absolute; top: 588px; left: 517px">
-	 <textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res14"></textarea>
+     <span style="position: absolute; top: 569px; left: 517px; font-size: 90%">
+			<textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res13"></textarea>
 		</span>
-     <span style="position: absolute; top: 608px; left: 517px">
-	 <textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res15"></textarea>
+     <span style="position: absolute; top: 588px; left: 517px; font-size: 90%">
+	 <textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res14"></textarea>
 		</span>
-     <span style="position: absolute; top: 629px; left: 517px">
-			<textarea rows = "1" cols = "30" maxlength = "30" id="plus3_p23res16"></textarea>
+     <span style="position: absolute; top: 608px; left: 517px; font-size: 90%">
+	 <textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res15"></textarea>
+		</span>
+     <span style="position: absolute; top: 629px; left: 517px; font-size: 90%">
+	 <textarea rows = "1" cols = "41" maxlength = "41" id="plus3_p23res16"></textarea>
 		</span>
       
       <span style="position: absolute; top: 698px; left: 533px">
-			<textarea rows = "1" cols = "15" maxlength = "15" id="plus3_p23res17"></textarea>
+			<textarea rows = "1" cols = "17" maxlength = "17" id="plus3_p23res17"></textarea>
 		</span>
       
       <span style="position: absolute; top: 508px; left: 514px">
@@ -83,10 +86,10 @@
 	  <textarea rows = "1" cols = "7" maxlength = "7" id="plus3_p23res20"></textarea>
 		</span>
       <span style="position: absolute; top: 738px; left: 576px">
-	  <textarea rows = "1" cols = "15" maxlength = "15" id="plus3_p23res21"></textarea>
+	  <textarea rows = "1" cols = "25" maxlength = "25" id="plus3_p23res21"></textarea>
 		</span>
       <span style="position: absolute; top: 759px; left: 600px">
-	  <textarea rows = "1" cols = "15" maxlength = "15" id="plus3_p23res22"></textarea>
+	  <textarea rows = "1" cols = "20" maxlength = "20" id="plus3_p23res22"></textarea>
 		</span>
       <span style="position: absolute; top: 779px; left: 465px">
 	  <textarea rows = "1" cols = "15" maxlength = "15" id="plus3_p23res23"></textarea>
@@ -189,6 +192,7 @@
     document.getElementById('plus3_p23res31').value = localStorage.getItem('plus3_p23res31');
     document.getElementById('plus3_p23res32').value = localStorage.getItem('plus3_p23res32');
     document.getElementById('plus3_p23res33').value = localStorage.getItem('plus3_p23res33');
+	document.getElementById('plus3_p23res34').value = localStorage.getItem('plus3_p23res34');
    
 
     function save_data(){
@@ -258,6 +262,8 @@
         localStorage.setItem('plus3_p23res32', plus3_p23res32);
         var plus3_p23res33 = document.getElementById('plus3_p23res33').value;
         localStorage.setItem('plus3_p23res33', plus3_p23res33);
+		 var plus3_p23res34 = document.getElementById('plus3_p23res34').value;
+        localStorage.setItem('plus3_p23res34', plus3_p23res34);
         
         alert("Saved correctly");
     }
